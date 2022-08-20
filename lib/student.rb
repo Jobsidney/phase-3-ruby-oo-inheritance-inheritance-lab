@@ -9,14 +9,14 @@ class Student < User
     def learn(str)
         @knowledge <<str
     end
-    def first_name
-        @first
-    end
-    def last_name
-        @last
+    def knowledge
+        @knowledge
     end
 
 end
 
 stude=Student.new()
+stude.first="Steve"
+p stude.first_name
 p stude.learn("ENlishh")
+p stude.knowledge
