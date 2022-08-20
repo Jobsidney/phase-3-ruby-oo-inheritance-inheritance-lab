@@ -11,6 +11,6 @@ class Teacher < User
 end
 
 tech=Teacher.new()
-tech.first="Steve"
+tech.first="Flombaum"
 p tech.first_name
 p tech.tech
